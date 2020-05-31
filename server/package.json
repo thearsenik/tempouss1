@@ -1,0 +1,36 @@
+{
+  "name": "tempoussin-server",
+  "version": "1.0.0",
+  "description": "Raspberry Pi temperature monitoring system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "simulator": "node simulator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thearsenik/tempoussin.git"
+  },
+  "keywords": [
+    "raspberry",
+    "pi",
+    "DHT22",
+    "temperature",
+    "monitoring"
+  ],
+  "author": "Naël MSKINE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thearsenik/tempoussin/issues"
+  },
+  "homepage": "https://github.com/thearsenik/tempoussin#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "q": "^1.5.1",
+    "sqlite3": "^4.2.0",
+    "unirest": "^0.6.0"
+  }
+}
